@@ -1,0 +1,27 @@
+.main-container {
+  height: 100vh;
+  background: #985219;
+}
+
+.input-container {
+  height: 45%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items: center;
+
+}
+
+.card-list {
+  display: flexbox;
+  background-color: #985219;
+  justify-content:space-around;
+  flex-direction:column;
+
+    
+}
+.app {
+  padding: 30px;
+  background-color: rgb(190, 136, 28);
+}
+
