@@ -38,8 +38,10 @@ function App() {
   const completeHandler =(id)=>{
    
     
-    todo.isCompleted= true 
-    const todo = toDos.find(e => e.id === id);  
+      const todo = toDos.find(e => e.id === id); 
+
+       todo.isCompleted = true
+
     setToDos([...toDos]) 
     localStorage.setItem("data",JSON.stringify(toDos)) 
   }
